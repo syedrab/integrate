@@ -876,7 +876,7 @@ ABOUT ( counters )
 -------------------------------------------------------------------*/
 
 .about-sec {
-	background:url(../images/about-bg.jpg) repeat center top;
+	background:url(../images/about-bg-sample.jpg) repeat center top;
 	background-attachment:fixed;
 	height: 530px;
 	padding: 110px 0 50px;
@@ -1037,7 +1037,7 @@ SERVICES BOX
 .icon {
 	width:85px;
 	height:85px;
-	background-color:#787878;
+	background-color:#e54242;
 	display:inline-block;
 	border:3px solid #fff;
 	box-shadow:0px 0px 0px 1px #787878;
