@@ -1037,7 +1037,7 @@ SERVICES BOX
 .icon {
 	width:85px;
 	height:85px;
-	background-color:#e54242;
+	background-color:#f15f3f;
 	display:inline-block;
 	border:3px solid #fff;
 	box-shadow:0px 0px 0px 1px #787878;
@@ -3608,7 +3608,7 @@ COLOR SWITCHER ONLY FOR DEMO
 	background: #7fc719;
 }
 .color-switcher ul li a.red {
-	background: #e54242;
+	background: #f15f3f;
 }
 .color-switcher ul li a.yellow {
 	background: #ff9c00;
