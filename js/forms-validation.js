@@ -60,7 +60,7 @@
 		var app_fname = document.getElementById("app_fname");
 		var app_lname = document.getElementById("app_lname");
 		var app_email_address = document.getElementById("app_email_address");
-		var app_date = document.getElementById("datepicker");
+		var app_message = document.getElementById("app_msg");
 	
 		var flag = 0;
 		
@@ -86,11 +86,7 @@
 			app_email_address.style.borderColor = "#FE847B";
 			flag = 1;
 		}	
-		else if(app_date.value == "" )
-		{
-			app_date.style.borderColor = "#FE847B";
-			flag = 1;
-		}
+
 	
 		if(flag == 0)
 		{	
