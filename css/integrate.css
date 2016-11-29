@@ -599,7 +599,7 @@ HEADER
 
 .fixed-header.small-header .integrate-header .navbar-brand img {
 	margin-top: 7px;
-	width: 160px;
+	width: 200px;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
@@ -752,8 +752,8 @@ HOME BOXES WIDGET ( opening hours )
 	color:#fff;
 }
 .home-box p {
-	font-size:15px;
-	margin-bottom:10px;
+	font-size: 20px;
+	margin: 20px 100px;
 }
 .home-box span.glyphicon {
 	font-size:40px;
@@ -801,7 +801,7 @@ APPOINTMENT
 -------------------------------------------------------------------*/
 
 .appointment-sec {
-	background:url(../images/lines-bg-white.jpg) repeat center top;
+	background:white;
 	min-height:731px;
 	padding:40px 0 0;
 }
@@ -878,7 +878,7 @@ ABOUT ( counters )
 .about-sec {
 	background:url(../images/about-bg-sample.jpg) repeat center top;
 	background-attachment:fixed;
-	height: 530px;
+	height: 330px;
 	padding: 110px 0 50px;
 }
 .about-sec h1, .about-sec p {

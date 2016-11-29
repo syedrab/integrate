@@ -3934,7 +3934,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
     }
 }
 .navbar-collapse {
-    padding-left: 15px;
     overflow-x: visible;
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -4036,8 +4035,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
     transition: all 0.5s ease-in-out;
 }
 .navbar-brand img {
-    width: 200px
-}
+    width: 245px;
+}   
 .navbar-brand:hover,
 .navbar-brand:focus {
     text-decoration: none;
@@ -6343,7 +6342,7 @@ td.hidden-lg {
     td.hidden-lg.hidden-xs {
         display: none !important;
     }
-    .fixed-header .integrate-header {
+    .fixed-header .kidsclinic-header {
         position: relative !important;
         top: 0 !;
     }
@@ -6351,12 +6350,12 @@ td.hidden-lg {
     .fixed-header .sub-page-banner {
         margin-top: 0 !important;
     }
-    .fixed-header.small-header .integrate-header {
+    .fixed-header.small-header .kidsclinic-header {
         min-height: 90px!important;
         height: auto !important;
         top: 0 !important;
     }
-    .fixed-header.small-header .integrate-header .navbar-brand img {
+    .fixed-header.small-header .kidsclinic-header .navbar-brand img {
         width: 200px !important;
     }
     .fixed-header .main-banner {
@@ -6381,13 +6380,13 @@ td.hidden-lg {
     .about-sec {
         height: auto;
     }
-    .integrate-app .col-md-5 {
+    .kidsclinic-app .col-md-5 {
         display: none;
     }
-    .integrate-app-content {
+    .kidsclinic-app-content {
         margin-top: 24%;
     }
-    .integrate-app-content .app-buttons li {
+    .kidsclinic-app-content .app-buttons li {
         margin: 0 3px 0 0;
     }
     .footer-widget {
@@ -6460,7 +6459,7 @@ td.hidden-lg {
         margin-left: -145px;
         width: 290px;
     }
-    .integrate-awesome-features-sec {
+    .kidsclinic-awesome-features-sec {
         height: auto;
         padding-bottom: 0;
     }
@@ -6677,7 +6676,7 @@ td.hidden-lg {
     .back ul li {
         margin: 0 4px 0 0;
     }
-    .integrate-awesome-features-sec h1 {
+    .kidsclinic-awesome-features-sec h1 {
         font-size: 40px;
     }
     .meet-the-doctors .owl-controls {
@@ -6720,13 +6719,13 @@ td.hidden-lg {
     .share-post ul.social-rounded {
         float: none;
     }
-	.boxed-layout{ 
-		margin-top:0;
-		margin-bottom:0;
-	}
-	.meet-the-doctors{
-		background:none;
-	}
+    .boxed-layout{ 
+        margin-top:0;
+        margin-bottom:0;
+    }
+    .meet-the-doctors{
+        background:none;
+    }
 }
 @media (max-width: 480px) {
     h1,
@@ -6757,7 +6756,7 @@ td.hidden-lg {
     .appointment-form div.selector {
         width: 100% !important;
     }
-    .integrate-app-content .app-buttons li {
+    .kidsclinic-app-content .app-buttons li {
         margin: 0 0 20px 0;
         float: none;
     }
@@ -6866,7 +6865,7 @@ td.hidden-lg {
     .shop-banner .slider-text p {
         font-size: 16px;
     }
-    .shop-banner .slider-text .integrate-feature-list li {
+    .shop-banner .slider-text .kidsclinic-feature-list li {
         font-size: 14px;
     }
     .main-banner .carousel-indicators li {
@@ -6899,8 +6898,9 @@ td.hidden-lg {
         font-size: 20px;
     }
     .home-box p,
-    .integrate-feature-list li {
+    .kidsclinic-feature-list li {
         font-size: 14px;
+        margin: 0;
     }
     .testimonials p br {
         display: none;
@@ -6909,7 +6909,7 @@ td.hidden-lg {
     .caption img.img-circle {
         padding: 5px;
     }
-    .integrate-awesome-features-sec h1 {
+    .kidsclinic-awesome-features-sec h1 {
         font-size: 24px;
     }
     .main-banner .owl-controls {
@@ -7053,7 +7053,7 @@ td.hidden-lg {
         display: inline-block;
         width: 49%;
     }
-    .integrate-app .col-md-5 {
+    .kidsclinic-app .col-md-5 {
         display: none;
     }
     .creative-sec {
@@ -7103,7 +7103,7 @@ td.hidden-lg {
         margin-left: -145px;
         width: 290px;
     }
-    .integrate-awesome-features-sec {
+    .kidsclinic-awesome-features-sec {
         height: auto;
         padding-bottom: 0;
     }
@@ -7234,13 +7234,13 @@ td.hidden-lg {
     .comment-respond input[type="text"] {
         width: 47.5%;
     }
-	.boxed-layout{ 
-		margin-top:0;
-		margin-bottom:0;
-	}
-	.meet-the-doctors{
-		background:none;
-	}
+    .boxed-layout{ 
+        margin-top:0;
+        margin-bottom:0;
+    }
+    .meet-the-doctors{
+        background:none;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .hidden-lg.hidden-md,
