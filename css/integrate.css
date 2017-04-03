@@ -971,7 +971,7 @@ TESTIMONIALS
 
 .testimonials {
 	padding:50px 0;
-	background:url(../images/lines-bg.jpg) repeat center top;
+	background:#fafafa;
 }
 .testimonials.bg-white {
 	background:url(../images/lines-bg-white.jpg) repeat center top;

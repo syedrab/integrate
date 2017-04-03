@@ -83,7 +83,7 @@ h6.light,
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: #f15f3f;
 }
-
+}
 @media (max-width: 767px) {
 .navbar-default .navbar-nav > li a:hover{
 	color:#f15f3f;
