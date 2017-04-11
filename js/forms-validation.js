@@ -7,9 +7,9 @@
 	var app_lname = document.getElementById("app_lname");
 
 	var app_email_address = document.getElementById("app_email_address");
-	var datepicker = document.getElementById("datepicker");
-	var news_name = document.getElementById("news_name");
-	var news_email_address = document.getElementById("news_email_address");
+	//var datepicker = document.getElementById("datepicker");
+	//var news_name = document.getElementById("news_name");
+	//var news_email_address = document.getElementById("news_email_address");
 
 	if(app_fname.value != ""){
 	app_fname.style.borderColor = "#C9C9C9";
@@ -26,15 +26,15 @@
 	if(checkcontact(app_email_address.value) == true){
 	app_email_address.style.borderColor = "#C9C9C9";
 	}
-    if(datepicker.value != ""){
-	datepicker.style.borderColor = "#C9C9C9";
-	}
-	if(news_name.value != "" ){
-	news_name.style.borderColor = "#C9C9C9";
-	}
-	if(news_email_address.value != ""){
-	news_email_address.style.borderColor = "#C9C9C9";
-	}
+    //if(datepicker.value != ""){
+	//datepicker.style.borderColor = "#C9C9C9";
+	//}
+	//if(news_name.value != "" ){
+	//news_name.style.borderColor = "#C9C9C9";
+	//}
+	//if(news_email_address.value != ""){
+	//news_email_address.style.borderColor = "#C9C9C9";
+	//}
 	
 	
 	
@@ -60,7 +60,7 @@
 		var app_fname = document.getElementById("app_fname");
 		var app_lname = document.getElementById("app_lname");
 		var app_email_address = document.getElementById("app_email_address");
-		var app_message = document.getElementById("app_msg");
+		var app_msg = document.getElementById("app_msg");
 	
 		var flag = 0;
 		
@@ -116,7 +116,7 @@
 		}
 	}
 	
-	function validateNewsletter(){
+	/*function validateNewsletter(){
 		var news_name = document.getElementById("news_name");
 		var news_email_address = document.getElementById("news_email_address");
 	
@@ -185,7 +185,7 @@
 		}
 	}
 		
-		function removeChecks(){
+		function removeChecks123(){
 		
 		var fname = document.getElementById("fname");
 		var email_address = document.getElementById("email_address");
@@ -263,7 +263,7 @@
 						});
 	
 		}
-	}
+	}*/
 	
 	
 	
