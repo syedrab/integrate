@@ -1,6 +1,6 @@
 <?php
 if($_POST['news_name']){
-			$to = "zain.uwaterloo@gmail.com";
+			$to = "support@integrate-health.ca";
 		$from =  $_POST["news_email_address"];
 		$message = "&nbsp;&nbsp;&nbsp;&nbsp;<strong>Name: </strong>".$_POST["news_name"]."<br />";
 		$message .= "&nbsp;&nbsp;&nbsp;&nbsp;<strong>Email Address: </strong>".$_POST["news_email_address"]."<br />";
@@ -24,7 +24,7 @@ else
 }
 
 if($_POST['app_fname']){
-			$to = "zain.uwaterloo@gmail.com";
+			$to = "support@integrate-health.ca";
 		$from =  $_POST["app_email_address"];
 		$message .= "<br />";
 		$message .= "<strong>First Name: </strong>".$_POST["app_fname"]."<br />";

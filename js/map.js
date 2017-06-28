@@ -150,7 +150,7 @@
 				  var contentString = '<div id="content-map">'+
 				  '<div id="siteNotice">'+
 				  '</div>'+
-				  '<h5 id="firstHeading" class="firstHeading">Integrate Health Service</h5>'+
+				  '<h5 id="firstHeading" class="firstHeading">Kids Clinic</h5>'+
 				  '<div id="bodyContent">300 Rossland Road E, Suite 301 in Ajax, Ontario'+
 				  '<p>Tel: 905-683-4440,' +
 				  '<br>Fax: 905-683-3303 '+				  
