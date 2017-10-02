@@ -1,0 +1,29 @@
+RewriteEngine on
+
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+
+RewriteBase /
+RewriteCond %{http://www.integrate-health.ca} !(\.[^./]+)$
+RewriteCond %{REQUEST_fileNAME} !-d
+RewriteCond %{REQUEST_fileNAME} !-f
+RewriteRule (.*) /$1.html [L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
+RewriteRule ^([^.]+)\.html$ http://www.integrate-health.ca/$1 [R=301,L]
+
+Redirect 301 "/about-testimonials.html" "/testimonials"
+Redirect 301 "/about-faqs.html" "/faqs"
+Redirect 301 "/about-careers.html" "/careers"
+Redirect 301 "/services-ibi.html" "/ibi-therapy"
+Redirect 301 "/services-aba.html" "/aba-therapy"
+Redirect 301 "/services-counselling.html" "/counselling-services"
+Redirect 301 "/services-group.html" "/group-counselling"
+Redirect 301 "/services-speech.html" "/speech-therapy-services"
+Redirect 301 "/services-educational.html" "/educational-services"
+Redirect 301 "/services-school.html" "/art-therapy"
+Redirect 301 "/services-psychological.html" "/psychological-services"
+Redirect 301 "/services-naturopath.html" "/naturopath-services"
+Redirect 301 "/services-prodev.html" "/professional-development-services"
+Redirect 301 "/started-calendar.html" "/calendar"
+Redirect 301 "/started-funding.html" "/funding"
+Redirect 301 "/services-parent.html" "/parent-counselling"
